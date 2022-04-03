@@ -11,7 +11,9 @@ You should be able to copy/replace the entire contents of the `EFI` folder on yo
 Also ensure to copy the `ENROLL_THIS_KEY_IN_MOKMANAGER.cer` certifiate to the root of your EFI partition, and follow the original guide or next section to enroll the key.
 
 # Add the Key and Boot
-Reboot and enable Secure Boot in the BIOS. You now get a blue screen with the Access Denied error. Follow these instructions:
+Reboot and enable Secure Boot in the BIOS, and boot from the `/EFI/BOOT/BOOTX64.EFI` image _(add a boot entry to your bios using EasyUEFI or some other tool if not present)__
+
+You now get a blue screen with the Access Denied error. Follow these instructions:
 
 - At the error page press OK
 - Press any key to perform MOK management
